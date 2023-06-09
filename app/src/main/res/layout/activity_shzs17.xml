@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SHZS17"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/caidan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="360dp"
+            android:text="车辆违章"
+            android:textColor="#ffffff"
+            android:textSize="80sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/xianshikuan"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:background="@drawable/beij8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ziweixian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/SHZS17_wz1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中等(100)"
+                    android:textColor="#5090C0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/SHZS17_tishi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="辐射较弱，涂擦SPF12~15、PA+护肤品"
+                    android:textColor="#5090C0"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/xianshikuan2"
+            android:layout_marginLeft="70dp"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:background="#DAEDFE"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ganmao" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/SHZS17_wz2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中等(100)"
+                    android:textColor="#5090C0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/SHZS17_tishi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="辐射较弱，涂擦SPF12~15、PA+护肤品"
+                    android:textColor="#5090C0"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/xianshikuan3"
+            android:layout_marginLeft="70dp"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:background="#DAEDFE"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/chuanyi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/SHZS17_wz3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中等(100)"
+                    android:textColor="#5090C0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/SHZS17_tishi3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="辐射较弱，涂擦SPF12~15、PA+护肤品"
+                    android:textColor="#5090C0"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/xianshikuan4"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:background="#DAEDFE"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/yuend" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/SHZS17_wz4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中等(100)"
+                    android:textColor="#5090C0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/SHZS17_tishi4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="辐射较弱，涂擦SPF12~15、PA+护肤品"
+                    android:textColor="#5090C0"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/xianshikuan5"
+            android:layout_marginLeft="70dp"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:background="#DAEDFE"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/kqwr" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/SHZS17_wz5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中等(100)"
+                    android:textColor="#5090C0"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/SHZS17_tishi5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="辐射较弱，涂擦SPF12~15、PA+护肤品"
+                    android:textColor="#5090C0"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

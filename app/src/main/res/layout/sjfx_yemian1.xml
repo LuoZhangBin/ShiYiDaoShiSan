@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:text="平台上有违章车辆和没违章车辆对比"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/tuoxing"
+        android:layout_width="match_parent"
+        android:layout_height="466dp" />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anniu_beij2"
+        >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@color/material_dynamic_primary30"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="无违章"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@color/design_default_color_error"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="有违章"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GJCX28"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#0099cc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/caidan"/>
+        <TextView
+            android:layout_marginLeft="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公交查询"
+            android:textColor="#ffffff"
+            android:textSize="70sp"/>
+    </LinearLayout>
+    <ExpandableListView
+        android:id="@+id/liebiao_28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

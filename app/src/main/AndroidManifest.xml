@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShiYiDaoShiSan"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".GJCX28"
+            android:exported="false" />
+        <activity
+            android:name=".SHZS27"
+            android:exported="false" />
+        <activity
+            android:name=".SJFX26"
+            android:exported="false" />
+        <activity
+            android:name=".LKCX25"
+            android:exported="false" />
+        <activity
+            android:name=".SHZS24"
+            android:exported="false" />
+        <activity
+            android:name=".ZHSZ23"
+            android:exported="false" />
+        <activity
+            android:name=".ZHGL22"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HLDGL21"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GRZX20"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SZFX"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WDXX"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SHZS17"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GRZX"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SHZS"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DLJM"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WZZP2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WZZP"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LKCX"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CLWZ_CXJG"
+            android:exported="false"
+            android:focusableInTouchMode="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SSHJ29"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HLDGL"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SSXS"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CLWZ"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
